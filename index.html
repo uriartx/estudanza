@@ -4,18 +4,13 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="theme-color" content="#e4f1eb" />
-		<title>Estudanza</title>
+		<title>Estudanza | Gran Gala Classique</title>
 
-		<!-- La raiz replica el reenvio que el dominio tenia en GoDaddy: quien
-		     entra a estudanza.com termina en el Facebook de la academia.
-		     Pages no hace redirecciones de servidor, asi que se resuelve en el
-		     cliente: location.replace para no dejar este paso en el historial
-		     (evita que el boton atras rebote), meta refresh para quien tenga
-		     el JS desactivado, y un enlace visible si fallaran ambos.
-
-		     El programa de la gala vive aparte, en /grangalaclassique2026/, y
-		     no pasa por aqui. -->
-		<meta http-equiv="refresh" content="0; url=https://www.facebook.com/PatriciaCano.Ballet" />
+		<!-- Pages no hace redirecciones de servidor, así que se resuelve en el
+		     cliente: meta refresh para quien tenga el JS desactivado, y
+		     location.replace para no dejar este paso en el historial. -->
+		<meta http-equiv="refresh" content="0; url=grangalaclassique2026/" />
+		<link rel="canonical" href="https://estudanza.com/grangalaclassique2026/" />
 		<meta name="robots" content="noindex" />
 		<link rel="icon" href="grangalaclassique2026/assets/images/logo-estudanza.webp" type="image/webp" />
 
@@ -39,12 +34,12 @@
 		</style>
 
 		<script>
-			location.replace("https://www.facebook.com/PatriciaCano.Ballet");
+			location.replace("grangalaclassique2026/");
 		</script>
 	</head>
 
 	<body>
-		<p>Redirigiendo…</p>
-		<p><a href="https://www.facebook.com/PatriciaCano.Ballet">Ir al Facebook de Estudanza</a></p>
+		<p>Redirigiendo al programa de la Gran Gala Classique…</p>
+		<p><a href="grangalaclassique2026/">Ir al programa</a></p>
 	</body>
 </html>
