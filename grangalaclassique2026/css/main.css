@@ -209,7 +209,9 @@ ul {
 	text-wrap: pretty;
 }
 
-.intro__thanks {
+/* Va con la especificidad subida: `.intro p` pesa mas que una clase
+   suelta y le pisaba el tamaño. */
+.intro p.intro__thanks {
 	margin-top: 2.25rem;
 	font-size: 0.875rem; /* 14px */
 	line-height: 1.5714; /* 22px */
