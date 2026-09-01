@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="es-PE">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+		<meta name="theme-color" content="#e4f1eb" />
+		<title>Estudanza | Gran Gala Classique</title>
+
+		<meta
+			name="description"
+			content="Gran Gala Classique Estudanza — 02 de setiembre de 2026, Teatro Manuel A. Segura. Programa de la gala por los 10 años de Estudanza, academia de ballet."
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Gran Gala Classique | Estudanza" />
+		<meta
+			property="og:description"
+			content="Programa de la gala por los 10 años de Estudanza. 02 SET. 2026 — Teatro Manuel A. Segura. Entrada libre."
+		/>
+		<meta property="og:image" content="assets/images/header-programa.webp" />
+		<meta property="og:locale" content="es_PE" />
+
+		<link rel="icon" href="assets/images/logo-estudanza.webp" type="image/webp" />
+		<link rel="preload" as="font" type="font/woff2" href="assets/fonts/juana-alt-regular.woff2" crossorigin />
+		<link rel="preload" as="image" type="image/webp" href="assets/images/header-programa.webp" fetchpriority="high" />
+		<link rel="stylesheet" href="css/main.css" />
+
+		<script>
+			/* Oculta el estado inicial ANTES del primer pintado, para que no
+			   haya parpadeo. Failsafe: si main.js no arranca, se revela todo. */
+			(function (d) {
+				var m = window.matchMedia;
+				if (!("IntersectionObserver" in window)) return;
+				if (m && m("(prefers-reduced-motion: reduce)").matches) return;
+				d.documentElement.classList.add("js-reveal");
+				setTimeout(function () {
+					if (!window.__revealReady) d.documentElement.classList.remove("js-reveal");
+				}, 2500);
+			})(document);
+		</script>
+	</head>
+
+	<body>
+		<div class="shell">
+			<!-- ==================== HERO ==================== -->
+			<header class="hero">
+				<picture>
+					<source srcset="assets/images/header-programa.webp" type="image/webp" />
+					<img
+						src="assets/images/Header-Programa-Estudanza.png"
+						alt="Gran Gala Classique Estudanza — Programa"
+						width="433"
+						height="560"
+						fetchpriority="high"
+						decoding="async"
+					/>
+				</picture>
+			</header>
+
+			<main>
+				<!-- ==================== INTRODUCCIÓN ==================== -->
+				<section class="intro" aria-labelledby="intro-title">
+					<h1 class="display display--lg" id="intro-title" data-reveal>Introducción</h1>
+
+					<hr class="rule" data-reveal />
+
+					<p data-reveal>
+						Hace 10 años nació Estudanza, fundada por los primeros bailarines Patricia Cano y Hermes Rodríguez, con el
+						sueño de formar nuevas generaciones de bailarines y ayudarlos a alcanzar sus metas.
+					</p>
+
+					<p data-reveal>
+						Hoy celebramos esta primera década con la Gran Gala Classique, un evento gratuito que busca acercar la danza
+						clásica a más personas.<br />
+						¡Que disfruten la función!
+					</p>
+
+					<p class="intro__thanks" data-reveal>
+						Nuestro profundo agradecimiento a la Municipalidad de Lima, al Teatro Segura, a UNIMPRO y a todas las
+						personas que se sumaron para hacer posible este evento.
+					</p>
+
+					<a class="brand" href="https://www.estudanza.com" target="_blank" rel="noopener" data-reveal>
+						<picture>
+							<source srcset="assets/images/logo-estudanza.webp" type="image/webp" />
+							<img
+								src="assets/images/logo-estudanza.png"
+								alt="Estudanza, academia de ballet"
+								width="180"
+								height="180"
+								loading="lazy"
+								decoding="async"
+							/>
+						</picture>
+						<span class="brand__url">www.estudanza.com</span>
+					</a>
+				</section>
+
+				<!-- ==================== CABECERA DEL PROGRAMA ==================== -->
+				<section class="billboard" aria-labelledby="programa-title">
+					<h2 class="billboard__bar" id="programa-title">
+						<span>Gran Gala Classique</span>
+						<span>Estudanza</span>
+					</h2>
+
+					<p class="billboard__meta">
+						<time datetime="2026-09-02">02 Set. 2026</time>
+						<span>Teatro Manuel A. Segura</span>
+					</p>
+				</section>
+
+				<!-- ==================== PROGRAMA ==================== -->
+				<section class="program" aria-label="Programa de la gala">
+					<ol class="program__list">
+						<li class="piece" data-reveal>
+							<h3 class="piece__title">Musas</h3>
+							<ul class="cast">
+								<li>Mariapaz Hurtado</li>
+								<li>Almendra Manchay</li>
+								<li>Mía Otoya</li>
+								<li>Antonella Quiñones</li>
+							</ul>
+						</li>
+
+						<li class="piece" data-reveal>
+							<h3 class="piece__title">Walpurgis</h3>
+							<p class="piece__subtitle">-Variación-</p>
+							<ul class="cast">
+								<li>Isabella Chang</li>
+							</ul>
+						</li>
+
+						<li class="piece" data-reveal>
+							<h3 class="piece__title">Chopiniana</h3>
+							<ul class="cast">
+								<li>Mariapaz Hurtado</li>
+							</ul>
+						</li>
+
+						<li class="piece" data-reveal>
+							<h3 class="piece__title">Pizzicato</h3>
+							<p class="piece__subtitle">-Variación-</p>
+							<ul class="cast">
+								<li>Isabel Abanto</li>
+								<li>Dayra Calderón</li>
+								<li>Anne Villanueva</li>
+							</ul>
+						</li>
+
+						<li class="piece" data-reveal>
+							<h3 class="piece__title">Danza China</h3>
+							<ul class="cast">
+								<li>Emilia Nuñuvero</li>
+								<li>Cora Segura</li>
+							</ul>
+						</li>
+
+						<li class="piece" data-reveal>
+							<h3 class="piece__title">El Corsario</h3>
+							<p class="piece__subtitle">-Odalisca-</p>
+							<ul class="cast">
+								<li>Mía Otoya</li>
+							</ul>
+						</li>
+
+						<li class="piece" data-reveal>
+							<h3 class="piece__title">Dúo de Chopin<br />Afecto</h3>
+							<ul class="cast">
+								<li>Isabella Chang</li>
+								<li>José Borrayo</li>
+							</ul>
+						</li>
+
+						<li class="piece" data-reveal>
+							<h3 class="piece__title">Bayaderas</h3>
+							<ul class="cast">
+								<li>Micaela Calderón</li>
+								<li>Janely Cuadros</li>
+								<li>Heidy Donaire</li>
+								<li>María Eustaquio</li>
+								<li>Samantha Ingil</li>
+								<li>Mía Otoya</li>
+								<li>Mikaela Rojas</li>
+							</ul>
+						</li>
+
+						<li class="piece" data-reveal>
+							<h3 class="piece__title">La Esclava<br />y el Mercader</h3>
+							<ul class="cast">
+								<li>Antonella Quiñones</li>
+								<li>Cristian Velit</li>
+							</ul>
+						</li>
+
+						<li class="piece" data-reveal>
+							<h3 class="piece__title">Diana y Acteón</h3>
+							<p class="piece__subtitle">Pas de deux</p>
+							<ul class="cast">
+								<li>Miranda Bowen</li>
+								<li>José Borrayo</li>
+							</ul>
+						</li>
+
+						<li class="piece" data-reveal>
+							<h3 class="piece__title">El Corsario</h3>
+							<p class="piece__subtitle">Pas de deux</p>
+							<ul class="cast">
+								<li>Almendra Manchay</li>
+								<li>Cristian Velit</li>
+							</ul>
+						</li>
+
+						<li class="piece" data-reveal>
+							<h3 class="piece__title">La Bayadera</h3>
+							<p class="piece__subtitle">Primer acto</p>
+							<ul class="cast">
+								<li>Isabella Chang</li>
+								<li>Adriano Gadea</li>
+							</ul>
+						</li>
+
+						<li class="piece" data-reveal>
+							<h3 class="piece__title">Flamas de París</h3>
+							<p class="piece__subtitle">Pas de deux</p>
+							<ul class="cast">
+								<li>Antonella Quiñones</li>
+								<li>Cristian Velit</li>
+							</ul>
+						</li>
+
+						<li class="piece" data-reveal>
+							<h3 class="piece__title">Romeo y Julieta</h3>
+							<p class="piece__subtitle">Pas de deux</p>
+							<ul class="cast">
+								<li>Miranda Bowen</li>
+								<li>José Borrayo</li>
+							</ul>
+						</li>
+
+						<li class="piece" data-reveal>
+							<h3 class="piece__title">Cascanueces</h3>
+							<ul class="cast">
+								<li>Isabella Chang</li>
+								<li>Richard Reyes</li>
+							</ul>
+						</li>
+
+						<li class="piece" data-reveal>
+							<h3 class="piece__title">Czardas</h3>
+							<ul class="cast">
+								<li>Pamela Chávez</li>
+								<li>Nicole Dávalos</li>
+								<li>Claudia Galarza</li>
+								<li>Liliana Khan</li>
+								<li>Isabel Mestanza</li>
+								<li>Melisa Sarname</li>
+								<li>Martín Tanaka</li>
+								<li>Erika Tinoco</li>
+							</ul>
+						</li>
+
+						<li class="piece" data-reveal>
+							<h3 class="piece__title">Paquita</h3>
+							<p class="piece__subtitle">Grand pas</p>
+							<ul class="cast cast--leads">
+								<li>Jhoalbis Marcano</li>
+								<li>Richard Reyes</li>
+							</ul>
+							<ul class="cast">
+								<li>Miranda Bowen</li>
+								<li>Isabella Chang</li>
+								<li>Mariapaz Hurtado</li>
+								<li>Almendra Manchay</li>
+								<li>Mía Otoya</li>
+								<li>Antonella Quiñones</li>
+							</ul>
+						</li>
+					</ol>
+				</section>
+
+				<!-- ==================== FOTO GRUPAL ==================== -->
+				<figure class="groupshot">
+					<picture>
+						<source srcset="assets/images/foto-grupal.webp" type="image/webp" />
+						<img
+							src="assets/images/Estudanza-fotogrupal.png"
+							alt="Elenco de Estudanza posando en el estudio de ballet"
+							width="433"
+							height="403"
+							loading="lazy"
+							decoding="async"
+						/>
+					</picture>
+					<figcaption>
+						En la foto, de izq. a der. — <b>Arriba:</b> Mariapaz Hurtado, Jhoalbis Marcano, Cristian Velit, Almendra
+						Manchay. — <b>Abajo:</b> Mia Otoya, Miranda Bowen, Isabella Chang, Antonella Quiñones.
+					</figcaption>
+				</figure>
+			</main>
+
+			<!-- ==================== CIERRE ==================== -->
+			<footer class="outro">
+				<p class="display display--md" data-reveal>Muchas gracias</p>
+			</footer>
+		</div>
+
+		<script src="js/main.js" defer></script>
+	</body>
+</html>
